@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        div{
+            height: 50px;
+            background-color: black;
+          border-radius: 10px; 
+          display: flex;
+
+        }
+        div > p{
+           color: white;
+        }
+        #brand{
+            /* justify-content: space-between */
+            margin-right: 70%;
+            margin-left: 10px;
+        }
+        #brand ~ p{
+          margin: 15px 30px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+      <p id="brand">Reebok</p>
+      <p>Men</p>
+      <p id="female">Women</p>
+      <p>Login</p>
+      <p>Signup</p>
+    </div>
+</body>
+</html>
